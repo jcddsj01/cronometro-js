@@ -21,7 +21,7 @@ Tecnologias Utilizadas:
 Créditos:
 * Criado com base do Canal no YouTube | [Matheus Battisti - Hora de Codar](https://www.youtube.com/watch?v=6wd7PK3G7Zo&t=153s&ab_channel=MatheusBattisti-HoradeCodar)
 
-Implantação do Projeto no Netlify: [Explore o projeto clicando aqui.]()
+Implantação do Projeto no Vercel: [Explore o projeto clicando aqui.](https://cronometro-js-v1.vercel.app/)
 
 ---
 
@@ -40,4 +40,4 @@ Technologies used:
 Credits:
 * Created on the basis of the YouTube channel | [Matheus Battisti - Hora de Codar](https://www.youtube.com/watch?v=6wd7PK3G7Zo&t=153s&ab_channel=MatheusBattisti-HoradeCodar)
 
-Project deployment on Netlify: [Explore the project by clicking here.]()
+Project deployment on Vercel: [Explore the project by clicking here.](https://cronometro-js-v1.vercel.app/)
