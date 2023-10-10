@@ -1,0 +1,104 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #867d67;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 40px;
+    margin: 100px;
+    max-width: 500px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.header h1 {
+    color: #f1f1f1;
+    font-size: 2.3rem;
+}
+
+#icone-cronometro {
+    color: #1d1d1d;
+    font-size: 2.5rem;
+}
+
+.timer {
+    display: flex;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    background-color: #1d1d1d;
+    color: #f1f1f1;
+    min-width: 120px;
+    padding: 5px 0;
+    border-radius: 5px;
+}
+
+#minutes {
+    border-top-left-radius: 30px;
+}
+
+#milliseconds {
+    border-bottom-right-radius: 30px;
+}
+
+.separator {
+    padding: 0 10px;
+    color: #f1f1f1;
+}
+
+#milliseconds {
+    font-size: 30px;
+    color: #f1f1f1;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid #1d1d1d;
+    transition: all .2s ease-in-out;
+    color: #1d1d1d;
+    background-color: transparent;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+#startBtn {
+    background-color: #1d1d1d;
+    color: #fff;
+    border-color: transparent;
+}
+
+#pauseBtn,
+#resumeBtn {
+    display: none;
+}
